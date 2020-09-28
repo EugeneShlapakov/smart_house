@@ -3,6 +3,9 @@
 .navbar {
     transition: all 0.4s;
 }
+.navbar-toggler{
+    color: #fff;
+}
 
 .navbar .nav-link {
     color: #fff;
@@ -40,18 +43,12 @@
 .navbar.active .navbar-brand {
     color: #555;
 }
-
-
-/* Change navbar styling on small viewports */
-@media (max-width: 991.98px) {
-    .navbar {
-        background: #fff;
-    }
-
-    .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
-    }
+.navbar.active .navbar-toggler {
+    color: #555;
 }
+
+
+
 .text-small {
     font-size: 0.9rem !important;
 }
