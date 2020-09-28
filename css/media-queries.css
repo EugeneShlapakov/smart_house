@@ -1,0 +1,21 @@
+@media only screen and (max-width: 480px) {
+    .first{
+        height: 50vh;
+    }
+    .device_img{
+        width: 100%;
+        text-align: center;
+    }
+    .pr_card{
+        height: 100vh;
+    }
+    .process_card_img{
+        display: none;
+    }
+    .card_text{
+        text-align: left;
+    }
+    .card_title{
+        text-align: center;
+    }
+}
