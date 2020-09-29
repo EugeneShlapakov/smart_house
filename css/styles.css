@@ -118,7 +118,7 @@
 .device_img{
     height: 32rem;
 }
-.third svg {
+.top_svg {
     width: 100%;
     height: 10vw;
     /* set height to pixels if you want angle to change with screen width */
@@ -154,4 +154,68 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1rem;
+}
+.fifth{
+    margin-top: 15vh;
+    background:linear-gradient( rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7)100%),url("../images/house_back.jpg");
+    background-size: cover;
+}
+
+.button {
+    position: relative;
+    padding: .6em 1.5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    margin: 1em 0.8em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button.type1 {
+    color: #ffffff;
+}
+
+.button.type1.type1::after, .button.type1.type1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 2px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+}
+
+.button.type1.type1::after {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff;
+}
+
+.button.type1.type1::before {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+}
+
+.button.type1.type1:hover:after, .button.type1.type1:hover:before {
+    width: 100%;
+    height: 100%;
+}
+
+
+.scenarios{
+    margin-top: 10vh;
+}
+.carousel-item img{
+    width: auto;
+    height: 400px;
 }
