@@ -18,4 +18,14 @@
     .card_title{
         text-align: center;
     }
+
+    .carousel-item img {
+        width: auto;
+        height: 200px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+
+
 }
