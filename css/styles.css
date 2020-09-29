@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6{
 .contact{
     background:linear-gradient( rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7)100%),url("../images/cont_back.jpg");
     background-size: cover;
-    height: 50vh;
+
 }
 
 .contact_cont{
@@ -277,5 +277,15 @@ h1, h2, h3, h4, h5, h6{
 .contact_cont p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    color: white;
+}
+footer{
+    background-color: #15151E;
+    color: white;
+}
+.page-footer .container .mt-3{
+    margin-top: 0!important;
+}
+.footer-copyright{
     color: white;
 }
