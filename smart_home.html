@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Готовые решения</title>
+    <title>О системе автоматизации Умного дома</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -28,7 +28,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="index.html" class="nav-link text-uppercase font-weight-bold">Главная<span
                             class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Умный дом</a></li>
+                    <li class="nav-item"><a href="smart_home.html" class="nav-link text-uppercase font-weight-bold">Умный дом</a></li>
                     <li class="nav-item"><a href="pricing.html" class="nav-link text-uppercase font-weight-bold">Цены</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link text-uppercase font-weight-bold">Контакты</a></li>
                 </ul>
@@ -37,10 +37,228 @@
     </nav>
 </header>
 <section class="first_house">
-    <h4>Готовые комплексные решения для Вашего дома</h4>
+    <h4>Как работает умный дом</h4>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
         <polygon fill="white" points="0,50 60,100 0,100"/>
         <polygon fill="white" points="100,50 60,100 100,100"/>
+    </svg>
+</section>
+<section class="second_house">
+    <h4 class="page_title">Протоколы умного дома</h4>
+    <p>Протоколы, используемые для связи устройств в умном доме, делятся на проводные и беспроводные. Каждый из них
+        имеет свои преимущества и недостатки, однако цель нашей компании - подобрать решение, которое будет наилучшим
+        для клиента. Мы предлагем не только использование различных технологий, но и <strong>совмещение
+            протоколов</strong> для
+        управления умными домашними устройствами через единое приложение. Ниже представлены описания предлагаемых к
+        установке нашей компанией протоколов KNX и
+        ZigBee - одних из самых популярных проводных, и, соответственно,
+        беспроводных протоколов:</p>
+    <div class="p-5 bg-white rounded shadow mb-5">
+        <!-- Rounded tabs -->
+        <ul id="myTab" role="tablist"
+            class="nav nav-tabs nav-pills flex-column flex-sm-row text-center bg-light border-0 rounded-nav">
+            <li class="nav-item flex-sm-fill">
+                <a id="home-tab" data-toggle="tab" href="#knx" role="tab" aria-controls="KNX" aria-selected="true"
+                   class="nav-link border-0 text-uppercase font-weight-bold active">KNX</a>
+            </li>
+            <li class="nav-item flex-sm-fill">
+                <a id="profile-tab" data-toggle="tab" href="#zigbee" role="tab" aria-controls="Zigbee"
+                   aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">Zigbee</a>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div id="knx" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade px-4 py-5 show active">
+                <p class="text-muted">KNX является наиболее настраиваемым из всех протоколов, имеет практически
+                    неограниченную полосу пропускания и по большей части требует специального программирования и
+                    используется в коммерческих и промышленных приложениях.</p>
+                <p class="text-muted mb-0">Данный стандарт гарантирует стабильность и надежность работы системы в
+                    дальнейшем. </p>
+            </div>
+            <div id="zigbee" role="tabpanel" aria-labelledby="profile-tab" class="tab-pane fade px-4 py-5">
+                <p class="text-muted">ZigBee — протокол связи по радиоканалу, превосходно вписывающийся в концепцию
+                    умного дома. Во-первых, стандарт позволяет создавать датчики с низким энергопотреблением и
+                    превосходной отзывчивостью: большую часть времени их беспроводные модули находятся в спящем режиме,
+                    но на пробуждение последних тратится всего 15 миллисекунд.</p>
+                <p class="text-muted mb-0"> Во-вторых, ZigBee поддерживает ячеистую топологию сети, при которой
+                    отдельные компоненты могут выступать в качестве посредника, передающего сигнал от одного устройства
+                    к другому. Подобная структура способна к самоорганизации и самовосстановлению, выход из строя
+                    одного-двух элементов, как правило, не приводит к серьезным последствиям.</p>
+            </div>
+        </div>
+        <!-- End rounded tabs -->
+    </div>
+</section>
+<section class="combination">
+    <svg class="top_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="0,0 40,0 0,50"/>
+        <polygon fill="white" points="100,50 40,0 100,0"/>
+    </svg>
+    <div class="container contact_cont">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center">
+                <h4 class="wow fadeInUp">Наша идея - в комбинировании протоколов в поисках наилучшего решения для
+                    клиента</h4>
+                <p>Свяжитесь с нами и мы вместе составим Ваш проект</p>
+                <button onclick="location.href='contact.html'" class="button type1">
+                    Контакты
+                </button>
+            </div>
+        </div>
+    </div>
+    <svg class="second_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="0,50 60,100 0,100"/>
+        <polygon fill="white" points="100,50 60,100 100,100"/>
+    </svg>
+</section>
+<section class="third_home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-12 voice_info">
+                <div class="text-align">
+                    <h4>Управляйте домом лишь при помощи голоса</h4>
+                    <p>Системы автоматизации умного дома позволяют клиенту управлять всеми процессами при помощи
+                        голосовых
+                        помощников</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-12 voice_img">
+                <img src="images/voice_assistants.png">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="fourth_home">
+    <svg class="top_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="0,0 40,0 0,50"/>
+        <polygon fill="white" points="100,50 40,0 100,0"/>
+    </svg>
+    <div class="container contact_cont">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center">
+                <h4 class="wow fadeInUp">Мы создаем визуализацию - приложение, с помощью которого, Вы сможете
+                    управлять всей системой с помощью устройства в вашей руке</h4>
+                <p>Экономьте и не тратьте лишнего - мы подбираем самые выгодные для клиента решения, которые могут легко
+                    дополняться в будущем.</p>
+            </div>
+        </div>
+    </div>
+    <svg class="second_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="0,50 60,100 0,100"/>
+        <polygon fill="white" points="100,50 60,100 100,100"/>
+    </svg>
+</section>
+<section class="what_can_do_us">
+    <h4 class="page_title wow fadeInUp" style="color: black; text-align: center">Чем можно управлять в умном доме</h4>
+    <div class="container what_can_do_cont">
+        <div class="row">
+            <div class="col-lg-12 border-bottom">
+                <div class="row">
+                    <div class="col-lg-6 col-12 what_can_do_box  border-right text-center">
+                        <div class="services__item__icon">
+                            <img src="images/innovation.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h4>Освещение</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="col-lg-6 col-12 what_can_do_box  border-left   text-center">
+                        <div class="services__item__icon">
+                            <img src="images/electric-plug-socket.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h4>Умные розетки и выключатели</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 border-top">
+                <div class="row">
+                    <div class="col-lg-6 col-12 what_can_do_box border-right text-center">
+                        <div class="services__item__icon">
+                            <img src="images/temperature-thermometer.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h4>Климат</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="col-lg-6 col-12 what_can_do_box  border-left text-center">
+                        <div class="services__item__icon">
+                            <img src="images/curtain.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h4>Шторы и жалюзи</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 border-top">
+                <div class="row">
+                    <div class="col-lg-6 col-12 what_can_do_box border-right text-center">
+                        <div class="services__item__icon">
+                            <img src="images/photo-capture.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h4>Домофония</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="col-lg-6 col-12 what_can_do_box  border-left text-center">
+                        <div class="services__item__icon">
+                            <img src="images/hobbies.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h4>Мультимедиа</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 border-top">
+                <div class="row">
+                    <div class="col-lg-6 col-12 what_can_do_box border-right text-center">
+                        <div class="services__item__icon">
+                            <img src="images/agriculture-irrigation.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h4>Автополив</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="col-lg-6 col-12 what_can_do_box  border-left text-center">
+                        <div class="services__item__icon">
+                            <img src="images/coffee-machine.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h4>Любые устройства</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="connect">
+    <svg class="top_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="0,0 40,50 100,0"/>
+    </svg>
+    <div class="container connect_cont">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center">
+                <h4 class="wow fadeInUp">Умный дом еще никогда не был таким доступным</h4>
+                <p>Свяжитесь с нами договоритесь об установке стартового пакета</p>
+                <button onclick="location.href='contact.html'" class="button type1">
+                    Контакты
+                </button>
+            </div>
+        </div>
+    </div>
+    <svg class="second_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="#15151E" points="0,100 40,50 100,100"/>
     </svg>
 </section>
 

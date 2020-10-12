@@ -894,3 +894,130 @@ h1.demo-title {
         padding: 40px 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------PROTOCOLS--------------------**/
+.first_house {
+    position: relative;
+    display: flex;
+    height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7) 100%), url("../images/protocols_back.jpg");
+    background-size: cover;
+}
+
+.first_house svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+    /* set height to pixels if you want angle to change with screen width */
+}
+
+.first_house h4 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.first_house p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.second_house{
+    margin-top: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.nav-pills .nav-link.active{
+    background-color: #15151E!important;
+    color: white!important;
+}
+#profile-tab, #home-tab{
+    color: #15151E;
+}
+@media (min-width: 576px) {
+  .rounded-nav {
+    border-radius: 50rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .rounded-nav .nav-link {
+    border-radius: 50rem !important;
+  }
+}
+.combination{
+    background:linear-gradient( rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7)100%),url("../images/combination_back.jpg");
+    background-size: cover;
+}
+.third_home{
+    margin-top: 10vh;
+}
+.voice_info h4{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: right;
+}
+.voice_info p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: right;
+}
+.voice_img img{
+    height: 400px;
+}
+.fourth_home{
+    margin-top: 10vh;
+}
+.fourth_home{
+    background:linear-gradient( rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7)100%),url("../images/dostup_back.jpg");
+    background-size: cover;
+}
+.what_can_do_us{
+    margin-top: 10vh;
+}
+.what_can_do_cont{
+    margin-top: 10vh;
+}
+.what_can_do_box{
+    padding: 1rem;
+}
+.what_can_do_box:hover > .services__item__icon{
+    transform: translateY(-1.5vh);
+}
+
+.connect{
+    background:linear-gradient( rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7)100%),url("../images/connect_back.jpg");
+    background-size: cover;
+
+}
+
+.connect_cont{
+    margin-top: 5vh;
+}
+.connect_cont h4{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: white;
+
+}
+.connect_cont p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
