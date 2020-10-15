@@ -7,7 +7,8 @@
         text-align: center;
     }
     .pr_card{
-        height: 100vh;
+        height: auto;
+        margin-top: 0;
     }
     .process_card_img{
         display: none;
@@ -25,6 +26,37 @@
     }
     .carousel-caption p{
         display: none;
+    }
+
+    .second_house .p-5 {
+        padding: 1rem !important;
+    }
+
+    .text-align {
+        margin: 0;
+        position: relative;
+        top: auto;
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .voice_info .text-align h4{
+        text-align: center;
+    }
+    .voice_info .text-align p{
+        text-align: center;
+    }
+    .voice_img img{
+        height: auto;
+        max-width: 100%;
+    }
+    .device_img{
+        display: none;
+    }
+    .item-dev{
+        height: 200px;
+    }
+    .carousel-indicators{
+        display: none!important;
     }
 
 
