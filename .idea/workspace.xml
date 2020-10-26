@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="78cc69fb-1c8f-404f-ae56-3dffd1f4009b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/smart_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devices.html" beforeDir="false" afterPath="$PROJECT_DIR$/devices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,9 @@
       <workItem from="1602688521806" duration="51000" />
       <workItem from="1602697388633" duration="389000" />
       <workItem from="1602751377038" duration="457000" />
-      <workItem from="1602754049461" duration="581000" />
+      <workItem from="1602754049461" duration="3080000" />
+      <workItem from="1602923109807" duration="145000" />
+      <workItem from="1603659056422" duration="3882000" />
     </task>
     <servers />
   </component>
@@ -79,16 +85,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601255433916" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1602751831953">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1602923219066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1601409048275" />
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602751831953" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1602751375699">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602923219066" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1602923199811">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1601247011044" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602751375699" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602923199811" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601255439734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

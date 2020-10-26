@@ -10,8 +10,15 @@
         height: auto;
         margin-top: 0;
     }
+
+    .pr_card .row {
+        height: auto;
+    }
     .process_card_img{
         display: none;
+    }
+    .process_card_text{
+        height: auto;
     }
     .card_text{
         text-align: left;
@@ -23,6 +30,9 @@
     .carousel-item img {
         width: auto;
         height: 200px;
+    }
+    .carousel-caption p{
+        display: none;
     }
     .carousel-caption p{
         display: none;
@@ -58,6 +68,268 @@
     .carousel-indicators{
         display: none!important;
     }
+}
 
+/*------------------------------iPad vertical--------------------------------*/
+@media only screen and (max-width: 769px) and (min-height: 1020px) {
+    .first{
+        height: 50vh;
+    }
+    .device_img{
+        width: 100%;
+        text-align: center;
+    }
+    .pr_card .row {
+        height: auto;
+    }
+    .process_card_img{
+        display: none;
+    }
+    .card_text{
+        text-align: left;
+    }
+    .card_title{
+        text-align: center;
+    }
+    .control_text p{
+        font-size: 1.2rem;
+    }
+    .carousel-item img {
+        width: auto;
+        height: 300px;
+    }
+    .first_dev .device_img{
+        display: none;
+    }
+    .text-align{
+        text-align: center;
+    }
+    .text-align p{
+        font-size: 1.4rem;
+    }
+
+}
+/*-------------------------------PHONES HORIZONTAL-------------------------*/
+@media only screen and (max-width: 813px) and (orientation: landscape) and (max-height: 515px) {
+    .first {
+        height: 100vh;
+    }
+
+    .device_img {
+        width: 100%;
+        text-align: center;
+        height: 35rem;
+    }
+
+    .pr_card{
+        height: auto;
+        margin-top: 0;
+    }
+
+    .pr_card .row {
+        height: auto;
+    }
+    .process_card_img{
+    }
+    .card_text{
+        text-align: left;
+    }
+    .card_title{
+        text-align: center;
+    }
+
+    .carousel-item img {
+        width: auto;
+        height: 200px;
+    }
+
+    .second_house .p-5 {
+        padding: 1rem !important;
+    }
+
+    .text-align {
+        margin: 0;
+        position: relative;
+        top: auto;
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .voice_info .text-align h4{
+        text-align: center;
+    }
+    .voice_info .text-align p{
+        text-align: center;
+    }
+    .voice_img img{
+        height: auto;
+        max-width: 100%;
+    }
+    .device_img{
+        height: 20rem;
+    }
+    .third_info h4{
+        font-size: 1rem;
+    }
+    .control_text p{
+        font-size: .9rem;
+    }
+    .carousel-item img{
+        height: 250px;
+    }
+
+    .item-dev{
+        height: 200px;
+    }
+    .carousel-indicators{
+        display: none!important;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+/*------------------------------iPad horizontal--------------------------------*/
+@media only screen and (max-width: 1025px) and (orientation: landscape) and (min-height: 760px) {
+    .first {
+        height: 80vh;
+    }
+
+    .device_img {
+        width: 100%;
+        text-align: center;
+        height: 35rem;
+    }
+
+    .pr_card .row {
+        height: 300px;
+    }
+
+    .process_card_img {
+    }
+    .card_text {
+        font-size: .8rem;
+    }
+
+    .card_text {
+        text-align: left;
+    }
+
+    .card_title {
+        text-align: center;
+    }
+
+    .control_text p {
+        font-size: 1.2rem;
+    }
+
+    .carousel-item img {
+        width: auto;
+        height: 400px;
+    }
+
+
+    .text-align {
+        text-align: center;
+    }
+
+    .text-align p {
+        font-size: 1.4rem;
+    }
+
+}
+/*----------------------iPad Pro vertical*/
+@media only screen and (max-width: 1025px) and (orientation: portrait) and (min-height: 1365px) {
+    .first {
+        height: 60vh;
+    }
+
+    .device_img {
+        width: 100%;
+        text-align: center;
+        height: 38rem;
+    }
+
+    .pr_card .row {
+        height: 300px;
+    }
+
+    .process_card_img {
+    }
+    .card_text {
+        font-size: .8rem;
+    }
+
+    .card_text {
+        text-align: left;
+    }
+
+    .card_title {
+        text-align: center;
+    }
+
+    .control_text p {
+        font-size: 1.2rem;
+    }
+
+    .carousel-item img {
+        width: auto;
+        height: 400px;
+    }
+
+
+    .text-align {
+        text-align: center;
+    }
+
+    .text-align p {
+        font-size: 1.4rem;
+    }
+
+}
+@media only screen and (max-width: 1367px) and (orientation: landscape) and (min-height: 1000px) {
+    .first {
+        height: 80vh;
+    }
+
+    .device_img {
+        width: 100%;
+        text-align: center;
+        height: 41rem;
+    }
+
+    .pr_card .row {
+        height: 300px;
+    }
+
+    .process_card_img {
+    }
+    .card_text {
+        font-size: .9rem;
+    }
+
+    .card_text {
+        text-align: left;
+    }
+
+    .card_title {
+        text-align: center;
+    }
+
+    .control_text p {
+        font-size: 1.2rem;
+    }
+
+    .carousel-item img {
+        width: auto;
+        height: 400px;
+    }
+
+
+    .text-align {
+        text-align: center;
+    }
+
+    .text-align p {
+        font-size: 1.4rem;
+    }
 
 }
