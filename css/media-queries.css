@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
     .first{
         height: 50vh;
     }
@@ -71,7 +71,7 @@
 }
 
 /*------------------------------iPad vertical--------------------------------*/
-@media only screen and (max-width: 769px) and (min-height: 1020px) {
+@media only screen and (min-width: 766px) and (orientation: portrait) {
     .first{
         height: 50vh;
     }
@@ -130,6 +130,7 @@
         height: auto;
     }
     .process_card_img{
+        display: none;
     }
     .card_text{
         text-align: left;
@@ -253,6 +254,7 @@
     }
 
     .process_card_img {
+        display: block;
     }
     .card_text {
         font-size: .8rem;

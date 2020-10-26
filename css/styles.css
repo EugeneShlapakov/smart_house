@@ -155,12 +155,35 @@ h1, h2, h3, h4, h5, h6{
 }
 .process_card_text{
     height: 100%;
+    overflow: auto;
 }
-.pr_card{
+
+.process_card_text::-webkit-scrollbar {
+    width: 7px;
+    height: 0;
+}
+
+.process_card_text::-webkit-scrollbar-track {
+    margin: 0 0 73px
+}
+
+.process_card_text::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 1px;
+}
+
+
+
+.process_card_text::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.55)
+}
+
+.pr_card {
     margin-top: 10vh!important;
 }
 .pr_card .row{
-    height: 310px;
+    height: 320px;
 }
 .card_title{
     font-family: 'Oswald', sans-serif;
